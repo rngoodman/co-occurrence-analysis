@@ -29,6 +29,13 @@ The final figure will look like this:
 
 ![Example Plot](figures/co-occurrence-probablisitic-heatmap-displaying-relationships-between-select-AMR-genes.png)
 
+The study that this was part of has been uploaded as a preprint on BiorXiv:
+
+[Molecular mechanisms of re-emerging chloramphenicol susceptibility in extended-spectrum beta-lactamase producing Enterobacterales 
+2023
+FE Graf, RN Goodman, S Gallichan, S Forrest, E Picton-Barlow, AJ Fraser, 
+bioRxiv, 2023.11.16.567242 2](https://doi.org/10.1101/2023.11.16.567242)
+
 ## How to run a co-occurrence analysis
 
 You will find the complete code including instructions about how to run it [here](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html).
