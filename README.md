@@ -29,7 +29,7 @@ The final figure will look like this:
 
 ![Example Plot](figures/co-occurrence-probablisitic-heatmap-displaying-relationships-between-select-AMR-genes.png)
 
-The study that this was part of has been uploaded as a preprint on BiorXiv:
+The study that this was part of has been uploaded as a preprint on BioRxiv:
 
 [Molecular mechanisms of re-emerging chloramphenicol susceptibility in extended-spectrum beta-lactamase producing Enterobacterales 
 2023
