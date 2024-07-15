@@ -20,4 +20,4 @@ The final figure will look like this:
 
 ## How to run a co-occurrence analysis
 
-You will find complete code including instructions about how to run it [here](Co-occurrence-analysis-of-AMR-genes.html)
+You will find the complete code including instructions about how to run it [here](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html).
