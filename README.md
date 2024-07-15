@@ -4,7 +4,7 @@ Co-occurrence analysis allows for the comparison of genetic interactions across 
 
 Short read sequencing makes de novo genome assembly difficult at the site of repeated sequences, which cannot be bridged if the reads are shorter than the repeat length. The inability to traverse repetitive regions makes de novo genome assembly difficult at the site of repeated sequences, which cannot be bridged if the reads are shorter than the length of the repeat. 
 
-![Example Plot]("figures/the-short-read-sequencing-workflow.png")
+![Example Plot](figures/the-short-read-sequencing-workflow.png)
 
 We used co-occurrence analysis to overcome these limitations of short-read sequencing. We ran a probabilistic analysis of gene co-occurrence to understand the genetic location of AMR genes relative to each other in short-read genomic data. 
 
