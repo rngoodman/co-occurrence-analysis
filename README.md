@@ -6,7 +6,10 @@ Here is my [code for running a co-occurrence analysis](https://another-goodman.g
 
 1. Screen one or many `.fasta` file(s) against a database with [abricate](https://github.com/tseemann/abricate).
 2. [Read the data into R](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#reading-in-data).
-3. 
+3. [Wrangle the data](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#wrangling-the-abricate-table) by [pre-processing](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#pre-processing-the-dataset) and [creating a count table](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-count-table).
+4. Use the [cooccur package](https://griffithdan.github.io/pages/code_and_data/cooccur.html) to [create a cooccur object](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-cooccur-object) and [visulise it as a heatmap](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#plotting-cooccurence-using-pheatmap).
+
+The code is organised in a way code can be used for any table produced by [abricate](https://github.com/tseemann/abricate) to screen against a database of genes. 
 
 ## Introduction 
 
@@ -31,3 +34,8 @@ The final figure will look like this:
 You will find the complete code including instructions about how to run it [here](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html).
 
 This analysis takes a binary table of AMR genes present in a defined set of genomes from abricate and creates a co-occurrence matrix and subsequent analysis of the co-occurrence interactions between AMR genes across the genomes. The code can be used for any table produced by [abricate](https://github.com/tseemann/abricate) to screen against a database of genes. 
+
+1. Screen one or many `.fasta` file(s) against a database with [abricate](https://github.com/tseemann/abricate). You can screen against AMR genes (CARD, Resfinder), virulence factors (VFDB) and metal resistance genes (MEGARES).
+3. [Read the data into R](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#reading-in-data).
+4. [Wrangle the data](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#wrangling-the-abricate-table) by [pre-processing](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#pre-processing-the-dataset) which includes the removal of duplicates and [creating a count table](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-count-table) which allows us to display it in a way in which we can make it into a co-occurrence table.
+5. Use the [cooccur package](https://griffithdan.github.io/pages/code_and_data/cooccur.html) to [create a cooccur object](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-cooccur-object). This can then be visualised with the [cooccur package itself](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#plotting-cooccurence-using-cooccur-function) or as a [heatmap](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#plotting-cooccurence-using-pheatmap) with the [pheatmap](https://www.rdocumentation.org/packages/pheatmap/versions/1.0.12/topics/pheatmap) function. You can either visulise the heatmap to contain all the genes in the matrix or [subset](subsetting-from-probability-table-table) to pick a selection of interesting genes.  
