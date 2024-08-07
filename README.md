@@ -7,9 +7,9 @@ Here is my [code for running a co-occurrence analysis](https://another-goodman.g
 1. Screen one or many `.fasta` file(s) against a database with [abricate](https://github.com/tseemann/abricate).
 2. [Read the data into R](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#reading-in-data).
 3. [Wrangle the data](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#wrangling-the-abricate-table) by [pre-processing](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#pre-processing-the-dataset) and [creating a count table](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-count-table).
-4. Use the [cooccur package](https://griffithdan.github.io/pages/code_and_data/cooccur.html) to [create a cooccur object](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-cooccur-object) and [visulise it as a heatmap](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#plotting-cooccurence-using-pheatmap).
+4. Use the [cooccur package](https://griffithdan.github.io/pages/code_and_data/cooccur.html) to [create a cooccur object](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#creating-a-cooccur-object) and [visualise it as a heatmap](https://another-goodman.github.io/co-occurrence-analysis/Co-occurrence-analysis-of-AMR-genes.html#plotting-cooccurence-using-pheatmap).
 
-The code is organised in a way code can be used for any table produced by [abricate](https://github.com/tseemann/abricate) to screen against a database of genes. 
+The code is organised to be used for any table produced by [abricate](https://github.com/tseemann/abricate) to screen against a database of genes. 
 
 ## Introduction 
 
@@ -29,7 +29,7 @@ The final figure will look like this:
 
 ![Example Plot](figures/co-occurrence-probablisitic-heatmap-displaying-relationships-between-select-AMR-genes.png)
 
-The study that this was part of has been uploaded as a preprint on BioRxiv:
+This analysis was part of a wider study which has been uploaded as a preprint on BioRxiv:
 
 [Molecular mechanisms of re-emerging chloramphenicol susceptibility in extended-spectrum beta-lactamase producing Enterobacterales 
 2023
