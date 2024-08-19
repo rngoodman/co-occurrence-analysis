@@ -13,7 +13,7 @@ The code is organised to be used for any table produced by [abricate](https://gi
 
 ## Introduction 
 
-Short read sequencing makes de novo genome assembly difficult at the site of repeated sequences, which cannot be bridged if the reads are shorter than the repeat length. The inability to traverse repetitive regions makes de novo genome assembly difficult at the site of repeated sequences, which cannot be bridged if the reads are shorter than the length of the repeat. 
+Short read sequencing makes de novo genome assembly difficult at the site of repeated sequences, which cannot be bridged if the reads are shorter than the repeat length.
 
 ![Example Plot](figures/the-short-read-sequencing-workflow.png)
 
