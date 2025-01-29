@@ -30,9 +30,15 @@
         .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #156082;
+            color: #156082
+            white-space: nowrap; /* Ensure the logo stays in one line */
         }
 
+    nav {
+        display: flex; /* Use flexbox to align links horizontally */
+        gap: 20px; /* Add spacing between links */
+    }
+  
         nav a {
             margin: 0 15px;
             text-decoration: none;
